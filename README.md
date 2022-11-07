@@ -1,8 +1,8 @@
 # Simple program to AI generate images with either user-created or random prompts.
 
 APIs used:
-https://replicate.com/stability-ai/stable-diffusion
-http://random-word-api.herokuapp.com/
+[Replicate.com](https://replicate.com/stability-ai/stable-diffusion)
+ and [Random Word API](http://random-word-api.herokuapp.com/)
 
 Replicate's API does not have CORS enabled so I hosted a NodeJS server API of my own to send the requests.
 
