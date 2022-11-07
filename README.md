@@ -8,4 +8,7 @@ Replicate's API does not have CORS enabled so I hosted a NodeJS server API of my
 
 Use `npm i` in both the root folder and the /server folder, then `npm start` in root and `npm run devStart` in /server
 
-Replicate's API requires an API key to run, sign up on their site and find it on your account page.
+Replicate's API requires an API key to run, sign up on their site and find it on your account page and create a .env file in root.
+
+Format for .env file
+> API_KEY = "Token yourtokenhere"
